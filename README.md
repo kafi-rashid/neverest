@@ -1,2 +1,0 @@
-# neverest
-Interactive background header.
