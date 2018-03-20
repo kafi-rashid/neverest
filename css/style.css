@@ -1,0 +1,103 @@
+/*
+	Neverest
+	Author: Kafi Rashid
+	Email: kafi.rashid@gmail.com
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,700');
+* {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#paharporbot {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#paharporbot .parallax {
+	height: 100%;
+	width: 102%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+}
+#paharporbot .static {
+	opacity: 1;
+}
+#paharporbot .trees {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+}
+#contents {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 30px;
+}
+#contents .contents-inner {
+	height: 100%;
+	width: 100%;
+	padding: 8vh 4vw;
+}
+#contents .title {
+	width: 100%;
+	color: white;
+	font-size: 50px;
+	font-weight: 100;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+	letter-spacing: -2px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+#contents .title strong {
+	color: white;
+	font-weight: 700;
+	font-size: 50px;
+}
+#contents .content {
+	color: white;
+	font-weight: 500;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	width: 100%;
+	max-width: 500px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+#contents .button {
+	font-size: 13px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border: thin solid rgba(255, 255, 255, 0.7);
+	background-color: transparent;
+	border-radius: 0;
+	color: white;
+	padding: 10px 20px 10px 23px;
+	outline: none;
+	cursor: pointer;
+	margin-top: 30px;
+	transition: 0.5s;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+#contents .button:hover {
+	border: thin solid rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+}
